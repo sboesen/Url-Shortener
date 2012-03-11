@@ -1,0 +1,34 @@
+// Place all the styles related to the redirections controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.url-box input {
+  height: 50px;
+  width: 500px;
+  font-size: 30px;
+  font-weight: normal;
+
+}
+.url-box {
+  width: 510px;
+  height: 50px;
+  margin: 0px auto;
+}
+.messages {
+  display:none;
+  width: 450px;
+  height: 100px;
+  margin: 0px auto;
+}
+.minor-margin {
+  margin-top: 50px;
+}
+.hero-unit {
+  height: 80px;
+}
+form {
+  margin: 0;
+}
+.messages input {
+  margin-bottom: 50px;
+}

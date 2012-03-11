@@ -1,0 +1,14 @@
+<h1>a.wat.do (url shortener)</h1>
+
+<div class="hero-unit minor-margin">
+<%= form_for(@redirection, remote:true) do |f| %>
+<% #remote: true%>
+  <div class="url-box">
+    <%= f.text_field :url, placeholder: "URL to be shortened", class: "input-xlarge" %>
+    <%= f.submit class: 'hidden'%>
+    <br />
+  </div>
+<% end %>
+  <div class="messages alert alert-success">
+  </div>
+</div>

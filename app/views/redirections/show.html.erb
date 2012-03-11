@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Url:</b>
+  <%= @redirection.url %>
+  <%= @redirection.path %>
+</p>
+
+
+<%= link_to 'Edit', edit_redirection_path(@redirection) %> |
+<%= link_to 'Back', redirections_path %>
